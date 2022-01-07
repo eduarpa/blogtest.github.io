@@ -1,0 +1,184 @@
+*{
+    margin: 0;  
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* Es para quitarle el pequeño margen entre 
+    El body y los div, header, etc*/
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image:url(images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    max-width: 25px;
+    padding-left: 2rem;
+    position: absolute;
+    top: 1rem;
+}
+.menu{
+    text-align: center;
+    width: 450px;
+    padding: 1rem;
+    position: relative;
+    left: 5%;
+    margin: 0 auto   ;
+    border-radius: 0em 0em 1rem 1rem;
+    background-color: rgba(255, 255, 255, 0.253);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 5x 5px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.21);
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+.menu ul li a{
+    color:wheat;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#Wallet {
+    color: rgb(255, 10, 214);
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    margin-right: 5rem;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    border: solid rgb(255, 10, 214) 2px;
+    background: rgb(121,9,103);
+  }
+  #Wallet:hover {
+    background: #e62097;
+  }
+
+.text{
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: 10rem;
+    left: 10rem;
+}
+span{
+    font-size: 24px;
+    font-style:italic;
+}
+.asidebox{
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    top: 40px;
+}
+.boximage{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 200px;
+}
+
+.boximage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.asidebutton{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    display: inline-blocks;
+    bottom: 70px;
+}
+#start{
+    right: 5px;
+    color: #ff2ba7;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: solid rgb(255, 10, 214) 2px;
+    background: rgb(121,9,103);
+}
+#info{
+    left: 5px;
+    color: rgb(255, 10, 214);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: solid rgb(255, 10, 214) 2px;
+    background: rgb(255, 255, 255);
+}
+.modules{
+    color: white;
+    position: absolute;
+    left: 10rem;
+}
+.modules p{
+    margin-left: 2rem;
+}
+.container{
+    margin-top: 7rem;
+    margin-left: 8rem;
+}
+.boxes{
+    color: rgb(255, 10, 214);
+    width: 250px;
+    height: 350px;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 0rem 2rem 2rem 2rem;
+    margin-left: 2rem;
+    background: rgb(121,9,103);
+    border: solid rgb(255, 10, 214) 2px;
+}
+.mascara{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 25px auto;
+    
+}
+.boxes img{
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+    object-position: center;
+}
+.boxes h3{
+    text-align: center;
+}
+.boxes p{
+    margin: 1rem 2rem;
+    text-align: justify;
+}
+#start:hover{
+    background: #e62097;
+    color: violet;
+}
+#info:hover{
+    background-color: rgb(212, 212, 212);
+}
+.boxes:hover{
+    background: #e62097;
+    color: violet;
+}
